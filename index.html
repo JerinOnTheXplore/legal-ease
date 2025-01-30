@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/2e1c9e3d59.js" crossorigin="anonymous"></script>
+    <!-- daisy ui CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -33,8 +36,21 @@
     </style>
 </head>
 <body class="poppins-font">
-    <header>
-
+    <header class="md:mt-5 max-sm:mt-4  md:mx-56 max-sm:mx-6 ">
+        <!-- navbar section -->
+         <nav>
+            <div class="flex items-center md:gap-32 max-sm:gap-20">
+                <div><img class="w-full" src="images/logo2.png" alt=""></div>
+                <ul class="flex items-center md:gap-10"> 
+                    <li class="text-[#707070] font-normal text-base max-sm:hidden"><a href="">Home</a></li>
+                    <li class="text-[#707070] font-normal text-base max-sm:hidden"><a href="">Services<i class="fa-solid fa-chevron-right max-sm:hidden"></i></a></li>
+                    <li class="text-[#707070] font-normal text-base max-sm:hidden"><a href="">Cases<i class="fa-solid fa-chevron-right max-sm:hidden"></i></a></li>
+                    <li class="text-[#707070] font-normal text-base max-sm:hidden"><a href="">Blog<i class="fa-solid fa-chevron-right max-sm:hidden"></i></a></li>
+                    <li class="text-[#707070] font-normal text-base max-sm:hidden"><a href="">Contact us<i class="fa-solid fa-chevron-right max-sm:hidden"></i></a></li>
+                </ul>
+                <button class="bg-[#B68C5A] md:p-3 max-sm:p-2 text-[#FFFFFF] font-semibold text-lg rounded-lg">Free Consultation</button>
+            </div>
+         </nav>
     </header>
     <main>
 
